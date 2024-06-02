@@ -20,7 +20,7 @@ class ProductsService {
       // convertir les données en JSON
       List data = jsonDecode(response.body);
 
-      // renvoyer une liste d'objet
+      // renvoyer une liste d'objet test
       return data
           .map(
             (dynamic value) => Product(
